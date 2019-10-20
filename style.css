@@ -1,9 +1,22 @@
 .daniGreating {
   color: gray;
-  height: 30rem;
-  background-image: url("./background.jpg");
-  background-size: cover;
+
+  background-image: url("./pexels-photo-2274463.jpeg");
+
+  background-attachment: fixed;
+  background-position: 90% 10%;
 }
 .greating {
-  padding-top: 20rem;
+  padding-top: 30rem;
+}
+header {
+  color: black;
+}
+header h3 {
+  text-align: center;
+}
+.giant-about-me h1 {
+  position: absolute;
+  font-size: 15rem;
+  right: 2rem;
 }
