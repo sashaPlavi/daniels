@@ -1,0 +1,9 @@
+.daniGreating {
+  color: gray;
+  height: 30rem;
+  background-image: url("./background.jpg");
+  background-size: cover;
+}
+.greating {
+  padding-top: 20rem;
+}
