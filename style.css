@@ -1,16 +1,24 @@
+body {
+  color: aliceblue;
+  background-color: black;
+}
 .daniGreating {
-  color: gray;
+  color: whitesmoke;
+  width: 50%;
+  margin: 0 auto;
+  background-color: black;
+  background-image: url("./bestcr.svg");
+  height: 40rem;
 
-  background-image: url("./pexels-photo-2274463.jpeg");
-
-  background-attachment: fixed;
-  background-position: 90% 10%;
+  background-position: top;
 }
 .greating {
-  padding-top: 30rem;
+  text-align: center;
+  border: 1px solid black;
 }
 header {
-  color: black;
+  color: whitesmoke;
+  background-color: black;
 }
 header h3 {
   text-align: center;
