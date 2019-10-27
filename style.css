@@ -2,29 +2,77 @@ body {
   color: aliceblue;
   background-color: black;
 }
-.daniGreating {
-  color: whitesmoke;
-  width: 50%;
-  margin: 0 auto;
-  background-color: black;
-  background-image: url("./bestcr.svg");
-  height: 40rem;
-
-  background-position: top;
-}
-.greating {
-  text-align: center;
-  border: 1px solid black;
-}
 header {
-  color: whitesmoke;
+  width: 100%;
+  margin-top: 0;
   background-color: black;
+  opacity: 0.5;
 }
-header h3 {
+header .dani h4 :hover {
+  color: aliceblue;
+}
+
+.daniGreating {
+  display: block;
+  color: whitesmoke;
+  padding: 1rem;
+  background-image: url("./bestcr.svg");
+  background-size: cover;
+  background-position: top;
+  width: 60%;
+  height: 35rem;
+  margin: 0 auto;
+}
+
+.description {
+  font-size: 2rem;
+  text-align: center;
+  opacity: 0.5;
+}
+.tree-top {
+  width: 100%;
+}
+.brush {
+  background-image: url("./pexels-photo-53265.jpeg");
+  height: 30rem;
+  background-size: cover;
+  background-position: top;
+  color: black;
   text-align: center;
 }
+.tree-top {
+  background-color: black;
+}
+.tree-top .col {
+  height: 15rem;
+  margin: 1rem;
+  background-color: cadetblue;
+}
+.tree-top .container div :hover {
+  background-color: cyan;
+}
+.tree-top p {
+  color: black;
+}
+
+h4 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
 .giant-about-me h1 {
-  position: absolute;
-  font-size: 15rem;
-  right: 2rem;
+  font-size: 10rem;
+  color: black;
+  padding: 0;
+}
+.references {
+  width: 80%;
+}
+.firm1 {
+  width: 30rem;
+}
+footer {
+  text-align: center;
 }
